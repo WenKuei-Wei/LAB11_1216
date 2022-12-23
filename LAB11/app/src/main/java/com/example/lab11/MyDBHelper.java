@@ -12,7 +12,8 @@ public class MyDBHelper extends SQLiteOpenHelper {
     private static final int version = 1;
 
         public MyDBHelper(@Nullable Context context){
-        super(context,name,null,version);
+
+            super(context,name,null,version);
     }
 
     @Override
